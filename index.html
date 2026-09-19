@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="XenoMC 👻 — Il tuo nuovo server Minecraft.">
+
+    <meta name="theme-color"
+          content="#3B82F6">
+
+    <title>XenoMC 👻 — Minecraft Server</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     BACKGROUND
+========================================= -->
+
+<div class="page-background">
+
+    <div class="blue-glow glow-left"></div>
+
+    <div class="blue-glow glow-right"></div>
+
+    <div class="background-grid"></div>
+
+</div>
+
+
+
+<!-- =========================================
+     NAVBAR
+========================================= -->
+
+<header class="navbar">
+
+    <div class="navbar-container">
+
+
+        <a href="index.html"
+           class="logo">
+
+            <span class="logo-ghost">
+                👻
+            </span>
+
+            <span class="logo-text">
+                Xeno<span>MC</span>
+            </span>
+
+        </a>
+
+
+
+        <nav class="navigation">
+
+            <a href="index.html"
+               class="active">
+                Home
+            </a>
+
+            <a href="server.html">
+                Server
+            </a>
+
+            <a href="store.html">
+                Store
+            </a>
+
+            <a href="regolamento.html">
+                Regolamento
+            </a>
+
+            <a href="candidature.html">
+                Candidature
+            </a>
+
+            <a href="contatti.html">
+                Contatti
+            </a>
+
+        </nav>
+
+
+
+        <div class="account-buttons">
+
+    <a href="login.html"
+       class="login-link">
+
+        Accedi
+
+    </a>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<main>
+
+
+<section class="hero">
+
+
+    <div class="hero-content">
+
+
+        <div class="online-badge">
+
+            <span class="online-dot"></span>
+
+            SERVER ONLINE
+
+        </div>
+
+
+        <div class="hero-mini-title">
+
+            BENVENUTO NEL MONDO DI
+
+        </div>
+
+
+        <h1 class="hero-title">
+
+            Xeno<span>MC</span>
+
+        </h1>
+
+
+        <p class="hero-text">
+
+            Un nuovo mondo Minecraft ti aspetta.
+            <br>
+
+            Entra nella community, vivi avventure
+            epiche e crea la tua storia.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+
+            <a href="server.html"
+               class="button-primary">
+
+                <span>
+                    🎮
+                </span>
+
+                GIOCA ORA
+
+            </a>
+
+
+            <a href="store.html"
+               class="button-secondary">
+
+                <span>
+                    💎
+                </span>
+
+                STORE
+
+            </a>
+
+
+        </div>
+
+
+
+        <!-- SERVER IP -->
+
+        <div class="server-ip-box">
+
+
+            <div class="ip-icon">
+                🌐
+            </div>
+
+
+            <div class="ip-information">
+
+                <small>
+                    SERVER IP
+                </small>
+
+                <strong id="server-ip">
+                    play.xenomc.it
+                </strong>
+
+            </div>
+
+
+            <button
+                class="copy-ip"
+                onclick="copyServerIP()">
+
+                📋
+
+            </button>
+
+
+        </div>
+
+
+        <div id="copy-notification"
+             class="copy-notification">
+
+            ✓ IP copiato!
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================
+         HERO VISUAL
+    ====================================== -->
+
+    <div class="hero-visual">
+
+
+        <div class="hero-circle"></div>
+
+        <div class="hero-circle circle-two"></div>
+
+
+        <div class="ghost-character">
+
+            👻
+
+        </div>
+
+
+        <div class="floating-element element-one">
+            ✦
+        </div>
+
+        <div class="floating-element element-two">
+            ◆
+        </div>
+
+        <div class="floating-element element-three">
+            ✧
+        </div>
+
+        <div class="floating-element element-four">
+            +
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     SERVER STATUS
+========================================= -->
+
+<section class="section server-section">
+
+
+    <div class="section-heading">
+
+        <span>
+            🌐
+        </span>
+
+        <small>
+            XENOMC NETWORK
+        </small>
+
+        <h2>
+            SERVER <strong>STATUS</strong>
+        </h2>
+
+        <p>
+            Tutte le informazioni sul nostro server.
+        </p>
+
+    </div>
+
+
+
+    <div class="server-panel">
+
+
+        <div class="server-main">
+
+
+            <div class="server-status-icon">
+
+                <span></span>
+
+                🎮
+
+            </div>
+
+
+            <div>
+
+                <small>
+                    STATO DEL SERVER
+                </small>
+
+                <h3>
+                    ONLINE
+                </h3>
+
+                <p>
+                    XenoMC è pronto ad accoglierti!
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="server-details">
+
+
+            <div class="detail">
+
+                <span>
+                    IP
+                </span>
+
+                <strong>
+                    play.xenomc.it
+                </strong>
+
+            </div>
+
+
+            <div class="detail">
+
+                <span>
+                    VERSIONE
+                </span>
+
+                <strong>
+                    1.21.8-26.1.2
+                </strong>
+
+            </div>
+
+
+            <div class="detail">
+
+                <span>
+                    SERVER
+                </span>
+
+                <strong>
+                    XenoMC
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     MODALITÀ
+========================================= -->
+
+<section class="section modes-section">
+
+
+    <div class="section-heading">
+
+        <span>
+            ⚔️
+        </span>
+
+        <small>
+            SCOPRI IL SERVER
+        </small>
+
+        <h2>
+            LE NOSTRE <strong>MODALITÀ</strong>
+        </h2>
+
+        <p>
+            Un'esperienza pensata per ogni tipo
+            di giocatore.
+        </p>
+
+    </div>
+
+
+
+    <div class="modes-grid">
+
+
+        <div class="mode-card">
+
+
+            <div class="mode-number">
+                01
+            </div>
+
+
+            <div class="mode-icon">
+                ⚔️
+            </div>
+
+
+            <h3>
+                SURVIVAL
+            </h3>
+
+
+            <p>
+                Costruisci, esplora e sopravvivi
+                in un mondo pieno di avventure.
+            </p>
+
+
+            <span class="mode-status">
+                ONLINE
+            </span>
+
+
+        </div>
+
+
+
+        <div class="mode-card featured-mode">
+
+
+            <div class="mode-number">
+                02
+            </div>
+
+
+            <div class="mode-icon">
+                🏰
+            </div>
+
+
+            <h3>
+                SMP CUSTOM
+            </h3>
+
+
+            <p>
+                Un'esperienza Survival personalizzata
+                con tante funzionalità uniche.
+            </p>
+
+
+            <span class="mode-status">
+                ONLINE
+            </span>
+
+
+        </div>
+
+
+
+        <div class="mode-card">
+
+
+            <div class="mode-number">
+                03
+            </div>
+
+
+            <div class="mode-icon">
+                🎯
+            </div>
+
+
+            <h3>
+                EVENTI
+            </h3>
+
+
+            <p>
+                Partecipa agli eventi della community
+                e conquista ricompense.
+            </p>
+
+
+            <span class="mode-status">
+                ONLINE
+            </span>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FEATURES
+========================================= -->
+
+<section class="section features-section">
+
+
+    <div class="section-heading">
+
+        <span>
+            ✦
+        </span>
+
+        <small>
+            PERCHÉ XENOMC?
+        </small>
+
+        <h2>
+            VIVI UNA NUOVA <strong>ESPERIENZA</strong>
+        </h2>
+
+    </div>
+
+
+
+    <div class="features-grid">
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                👥
+            </div>
+
+            <h3>
+                COMMUNITY
+            </h3>
+
+            <p>
+                Gioca insieme a una community
+                sempre pronta a divertirsi.
+            </p>
+
+        </div>
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                🛡️
+            </div>
+
+            <h3>
+                STAFF
+            </h3>
+
+            <p>
+                Uno staff attivo pronto ad aiutarti
+                quando ne hai bisogno.
+            </p>
+
+        </div>
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                🔥
+            </div>
+
+            <h3>
+                EVENTI
+            </h3>
+
+            <p>
+                Tantissimi eventi e attività
+                per mantenere il server sempre vivo.
+            </p>
+
+        </div>
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                ⚡
+            </div>
+
+            <h3>
+                PERFORMANCE
+            </h3>
+
+            <p>
+                Un'esperienza fluida e pensata
+                per offrirti il massimo.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     STORE PREVIEW
+========================================= -->
+
+<section class="section store-section">
+
+
+    <div class="section-heading">
+
+        <span>
+            💎
+        </span>
+
+        <small>
+            XENOMC STORE
+        </small>
+
+        <h2>
+            SCEGLI IL TUO <strong>RANGO</strong>
+        </h2>
+
+        <p>
+            Porta la tua esperienza XenoMC
+            a un livello superiore.
+        </p>
+
+    </div>
+
+
+
+    <div class="store-grid">
+
+
+        <div class="store-item">
+
+            <div class="store-icon">
+                🍄
+            </div>
+
+            <span>
+                VIP FUNGO
+            </span>
+
+            <strong>
+                €2.99
+            </strong>
+
+        </div>
+
+
+        <div class="store-item">
+
+            <div class="store-icon">
+                ⛰️
+            </div>
+
+            <span>
+                ABISSO
+            </span>
+
+            <strong>
+                €4.99
+            </strong>
+
+        </div>
+
+
+        <div class="store-item popular">
+
+            <div class="popular-label">
+                ★ POPOLARE
+            </div>
+
+            <div class="store-icon">
+                🗿
+            </div>
+
+            <span>
+                TITAN
+            </span>
+
+            <strong>
+                €7.99
+            </strong>
+
+        </div>
+
+
+        <div class="store-item">
+
+            <div class="store-icon">
+                🧙‍♂️
+            </div>
+
+            <span>
+                STREGONE
+            </span>
+
+            <strong>
+                €9.99
+            </strong>
+
+        </div>
+
+
+        <div class="store-item">
+
+            <div class="store-icon">
+                ⚡
+            </div>
+
+            <span>
+                GEUS
+            </span>
+
+            <strong>
+                €14.99
+            </strong>
+
+        </div>
+
+
+    </div>
+
+
+
+    <a href="store.html"
+       class="store-button">
+
+        💎
+        APRI LO STORE
+
+    </a>
+
+
+</section>
+
+
+
+<!-- =========================================
+     DISCORD
+========================================= -->
+
+<section class="discord-section">
+
+
+    <div class="discord-panel">
+
+
+        <div class="discord-symbol">
+            💬
+        </div>
+
+
+        <div class="discord-text">
+
+            <small>
+                XENOMC COMMUNITY
+            </small>
+
+            <h2>
+                ENTRA NEL NOSTRO
+                <strong>DISCORD</strong>
+            </h2>
+
+            <p>
+                News, eventi, supporto e tanto altro
+                ti aspettano nella nostra community.
+            </p>
+
+        </div>
+
+
+        <a href="#"
+           class="discord-button">
+
+            💬
+            DISCORD
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FINAL CTA
+========================================= -->
+
+<section class="final-section">
+
+
+    <div class="final-box">
+
+
+        <div class="final-ghost">
+            👻
+        </div>
+
+
+        <small>
+            SEI PRONTO?
+        </small>
+
+
+        <h2>
+            LA TUA AVVENTURA
+            <strong>INIZIA QUI.</strong>
+        </h2>
+
+
+        <p>
+            Entra su XenoMC e scrivi la tua storia.
+        </p>
+
+
+        <div class="final-buttons">
+
+
+            <a href="server.html"
+               class="button-primary">
+
+                🎮
+                GIOCA ORA
+
+            </a>
+
+
+            <a href="register.html"
+               class="button-secondary">
+
+                👤
+                CREA ACCOUNT
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="footer">
+
+
+    <div class="footer-container">
+
+
+        <div class="footer-brand">
+
+            <a href="index.html"
+               class="footer-logo">
+
+                👻 XenoMC
+
+            </a>
+
+            <p>
+                Il tuo nuovo mondo Minecraft.
+            </p>
+
+            <span>
+                play.xenomc.it
+            </span>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h4>
+                NAVIGAZIONE
+            </h4>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="server.html">
+                Server
+            </a>
+
+            <a href="store.html">
+                Store
+            </a>
+
+            <a href="regolamento.html">
+                Regolamento
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h4>
+                COMMUNITY
+            </h4>
+
+            <a href="candidature.html">
+                Candidature
+            </a>
+
+            <a href="contatti.html">
+                Contatti
+            </a>
+
+            <a href="#">
+                Discord
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h4>
+                ACCOUNT
+            </h4>
+
+            <a href="login.html">
+                Accedi
+            </a>
+
+            <a href="profilo.html">
+                Profilo
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 XenoMC 👻
+        </span>
+
+        <span>
+            Tutti i diritti riservati.
+        </span>
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =========================================
+     JAVASCRIPT
+========================================= -->
+
+<script>
+
+function copyServerIP() {
+
+    const ip =
+        document
+            .getElementById("server-ip")
+            .textContent
+            .trim();
+
+
+    navigator.clipboard
+        .writeText(ip)
+        .then(() => {
+
+            const notification =
+                document.getElementById(
+                    "copy-notification"
+                );
+
+
+            notification.classList.add("show");
+
+
+            setTimeout(() => {
+
+                notification.classList.remove("show");
+
+            }, 2000);
+
+        })
+
+        .catch(() => {
+
+            alert(
+                "IP del server: " + ip
+            );
+
+        });
+
+}
+
+</script>
+
+
+</body>
+
+</html>
